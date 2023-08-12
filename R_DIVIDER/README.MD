@@ -24,21 +24,23 @@ This project demonstrates the process of designing a resistor divider circuit us
 ### Creating Schematic and Layout
 1. Open Electric Binary Software and create a new project. 
     `Explore >> Library Name >> Tutorial_1.jelib`
-2. Design the resistor divider circuit schematic using the software's schematic editor.
-3. Save the schematic file with a relevant name (e.g., `resistor_divider.sch`).
-4. Generate the layout for the designed circuit using Electric's layout generation tools.
-5. Save the layout file with a relevant name (e.g., `resistor_divider_layout.layout`).
+2. Ceate New Cell `Cell >> New Cell >> R_divider >> Schematic`
+3. Design the resistor divider circuit schematic using the software's schematic editor using N well Resistor from Components option.
+4. Edit its properties `Ctrl + I` in my case I have taken `LENTGTH=187.5 UNITS AND WIDTH=15 UNITS` AND Scale was 300 nanometer.
+5. Now again create new cell , give its name same `R_divider` and type should be `Layout`.
+6. Generate the layout for the designed circuit using Electric's layout generation tools using n well resitor from components option and make its properties same as schematic.
+7. Now, we can perform Design Rule Check (DRC), Also do the Network Consistency Check (NCC) And check wells too. If there is eny error view it and debug it.
 
 ### Writing SPICE Code
-1. Open the schematic  Electric and annotate the components with reference designators.
-2. Export the annotated schematic to a netlist format compatible with LTspice (e.g., `.cir` or `.net`).
+1. Write spice code in both schematic and Layout for simulation. Spice code can be written by going to components >> Misc.
+2. I have written it for the above R_divier 
+`vin vin 0 DC 1 
+.tran 0 1` 
 
 ### Performing Transient Analysis
-1. Open LTspice and create a new schematic.
-2. Import the exported netlist into the LTspice schematic.
-3. Set up the transient analysis parameters, such as simulation time and time step.
-4. Run the transient analysis simulation.
-5. Analyze the simulated waveform to observe the behavior of the resistor divider circuit.
+1. We can invoke LTspice from Electric only for eg. let us simulate R_divider schematic . Go to `Tools >> Spice/CDL >> write spice 
+2. Now , LT Spice is invoked and plot the Vout and Vin using add plots and its waveform will be visisbl.
+3. Analyze the simulated waveform to observe the behavior of the resistor divider circuit.
 
 ## Screenshots
 Include relevant screenshots of the created schematic, layout, SPICE code, and LTspice simulation results. Place these images in a separate folder within the repository.
