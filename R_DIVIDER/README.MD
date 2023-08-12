@@ -50,4 +50,4 @@ This project demonstrates the process of designing a resistor divider circuit us
 ![Transient Analysis](https://github.com/afzalamu/eletric-vlsi/blob/main/R_DIVIDER/Images/waveform.jpg) 
 
 ## Conclusion
-By following this process, you successfully designed a resistor divider circuit using Electric Binary Software, generated its layout, wrote SPICE code, and simulated its waveform behavior using LTspice. This project showcases the seamless integration between schematic design, layout generation, and circuit simulation.
+By following this process, you successfully designed a resistor divider circuit using Electric Binary Software which is taking input as 1V and giving output as 0.5V as both the resistor are of 10kohm . In addition to this , generated its layout, wrote SPICE code, and simulated its waveform behavior using LTspice. This project showcases the seamless integration between schematic design, layout generation, and circuit simulation.
