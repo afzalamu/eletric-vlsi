@@ -43,7 +43,8 @@ This project demonstrates the process of designing a resistor divider circuit us
 3. Analyze the simulated waveform to observe the behavior of the resistor divider circuit.
 
 ## Screenshots
-Include relevant screenshots of the created schematic, layout, SPICE code, and LTspice simulation results. Place these images in a separate folder within the repository.
-
+![Schematic of R_divider](images/schematic.jpg)
+![Laout of R_divider](images/layout.jpg)
+![Transient Analysis](images/waveform.jpg)
 ## Conclusion
 By following this process, you successfully designed a resistor divider circuit using Electric Binary Software, generated its layout, wrote SPICE code, and simulated its waveform behavior using LTspice. This project showcases the seamless integration between schematic design, layout generation, and circuit simulation.
