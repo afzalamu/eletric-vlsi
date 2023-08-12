@@ -23,6 +23,7 @@ This project demonstrates the process of designing a resistor divider circuit us
 
 ### Creating Schematic and Layout
 1. Open Electric Binary Software and create a new project. 
+
     `Explore >> Library Name >> Tutorial_1.jelib`
 2. Design the resistor divider circuit schematic using the software's schematic editor.
 3. Save the schematic file with a relevant name (e.g., `resistor_divider.sch`).
