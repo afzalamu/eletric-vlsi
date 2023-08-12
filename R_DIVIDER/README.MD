@@ -16,13 +16,13 @@ This README.md file documents the process of creating a resistor divider circuit
 This project demonstrates the process of designing a resistor divider circuit using Electric Binary Software and then simulating its behavior using LTspice. The key steps involve creating the circuit schematic, generating its layout, writing SPICE code, and finally analyzing the transient waveform response.
 
 ## Prerequisites
-- [Electric Binary Software](https://link-to-electric.com) installed
-- [LTspice](https://www.analog.com/en/design-center/design-tools-and-calculators/simulation-tools/lts.html) installed
+- [Electric Binary Software](https://link-to-electric.com) Click here to Install
+- [LTspice](https://www.analog.com/en/design-center/design-tools-and-calculators/simulation-tools/lts.html) Click here to Install
 
 ## Instructions
 
 ### Creating Schematic and Layout
-1. Open Electric Binary Software and create a new project.
+1. Open Electric Binary Software and create a new project. 
     `Explore >> Library Name >> Tutorial_1.jelib`
 2. Design the resistor divider circuit schematic using the software's schematic editor.
 3. Save the schematic file with a relevant name (e.g., `resistor_divider.sch`).
