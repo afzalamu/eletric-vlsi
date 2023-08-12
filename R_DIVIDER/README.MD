@@ -45,7 +45,7 @@ This project demonstrates the process of designing a resistor divider circuit us
 ## Screenshots
 ![Schematic of R_divider](./R_DIVIDER/images/schematic.jpg) 
 
-![Laout of R_divider](./R_DIVIDER/images/layout.jpg) 
+![Laout of R_divider](https://github.com/afzalamu/eletric-vlsi/blob/main/R_DIVIDER/Images/layout.jpg) 
 
 ![Transient Analysis](./R_DIVIDER/images/waveform.jpg) 
 
