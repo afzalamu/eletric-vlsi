@@ -38,7 +38,7 @@ This project demonstrates the process of designing a resistor divider circuit us
 .tran 0 1` 
 
 ### Performing Transient Analysis
-1. We can invoke LTspice from Electric only for eg. let us simulate R_divider schematic . Go to `Tools >> Spice/CDL >> write spice 
+1. We can invoke LTspice from Electric only for eg. let us simulate R_divider schematic . Go to `Tools >> Spice/CDL >> write spice `
 2. Now , LT Spice is invoked and plot the Vout and Vin using add plots and its waveform will be visisbl.
 3. Analyze the simulated waveform to observe the behavior of the resistor divider circuit.
 
