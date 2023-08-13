@@ -34,6 +34,7 @@ This project demonstrates the process of designing schematic setups for NMOS and
     select NMOS and PMOS from component, For NMOS Source and Drain are made with `nact` and for Gate Metal to polysilicon contact is required select it        and for body terminal select `Pwell` and make their x sizes same as with i.e 10. set the spice model and make the proper connections and export the        pins. 
     Similarly, for PMOS Source and Drain are made with `Pact` and one metal to polysilicon contact is required for Gate and for body `Nwell` is required       and adjust the sizes and make the proper connections ad export the pins. 
 5. Save the Schematic and layout files.
+6. Perform the Design Rule Check (DRC) using `F5`, also do the Network Consistency Check (NCC) and check the wells (ERC) too. 
 
 ### Writing SPICE Code
 1. To write the spice code `Comonents >> Misc. >> Spice Code` for both Schematic and Layouts.
