@@ -39,11 +39,17 @@ This project demonstrates the process of designing schematic setups for NMOS and
 1. To write the spice code `Comonents >> Misc. >> Spice Code` for both Schematic and Layouts.
 2. For NMOS Schematics and Layouts 
    `VS S 0 DC 0 
-    VW W 0 DC O 
-    VG G 0 DC 0 
-    VD D 0 DC 0 
-    .dc VD 0 5 1 VG 0 5 1 
-    .INCLUDE "Path to c5 model file" `
+
+    VW W 0 DC O  
+
+    VG G 0 DC 0  
+
+    VD D 0 DC 0  
+
+    .dc VD 0 5 1 VG 0 5 1  
+
+    .INCLUDE "Path to c5 model file" ` 
+
 2. For PMOS Schematics and Layouts 
    `VS S 0 DC 0 
     VW W 0 DC O 
