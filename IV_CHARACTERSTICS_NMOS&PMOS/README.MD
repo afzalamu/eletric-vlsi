@@ -63,6 +63,8 @@ This project demonstrates the process of designing schematic setups for NMOS and
 ![NMOS LAYOUT SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_LayoutSetup.png)
 ![PMOS SCHEMATIC SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_SchematicSetup.png)
 ![PMOS LAYOUT SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_LayoutSetup.png)
+![NMOS IV CHARACTERSTICS](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_iD.jpg)
+![PMOS IV CHARACTERSTICS](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_IS.jpg)
 
 ## Conclusion
 By following this process, you successfully designed schematic setups for NMOS and PMOS IV characteristics using Electric Binary Software, generated their layouts, wrote SPICE code, and simulated IV characteristics using LTspice. This project demonstrates the integration between schematic design, layout generation, SPICE modeling, and DC analysis.
