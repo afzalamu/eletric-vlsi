@@ -54,7 +54,7 @@ This project demonstrates the process of designing schematic setups for NMOS and
     .INCLUDE "Path to c5 model file" `
 
 ### Performing DC Analysis
-1. Now we are readt to simulate and obtain IV characterstics of both PMOS and NMOS
+1. Now we are ready to simulate and obtain IV characterstics of both PMOS and NMOS
    Go to `Tools >> Spice >> write Spice deck` and Ltspice will automatically get invoked and plot the characterstics.
 5. Observe and analyze the simulated IV characteristics for both NMOS and PMOS setups.
 
