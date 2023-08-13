@@ -59,11 +59,17 @@ This project demonstrates the process of designing schematic setups for NMOS and
 5. Observe and analyze the simulated IV characteristics for both NMOS and PMOS setups.
 
 ## Screenshots
-![NMOS SCHEMATIC SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_SchematicSetup.png)
-![NMOS LAYOUT SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_LayoutSetup.png)
-![PMOS SCHEMATIC SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_SchematicSetup.png)
-![PMOS LAYOUT SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_LayoutSetup.png)
-![NMOS IV CHARACTERSTICS](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_iD.jpg)
+NMOS SCHEMATIC SETUP 
+![NMOS SCHEMATIC SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_SchematicSetup.png) 
+NMOS LAYOUT SETUP
+![NMOS LAYOUT SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_LayoutSetup.png) 
+PMOS SCHEMATIC SETUP
+![PMOS SCHEMATIC SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_SchematicSetup.png) 
+PMOS LAYOUT SETUP
+![PMOS LAYOUT SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_LayoutSetup.png) 
+NMOS IV CHARACTERSTICS
+![NMOS IV CHARACTERSTICS](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_iD.jpg) 
+PMOS IV CHARACTERSTICS
 ![PMOS IV CHARACTERSTICS](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_IS.jpg)
 
 ## Conclusion
