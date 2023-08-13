@@ -1,0 +1,20 @@
+*** SPICE deck for cell PMOS_IV{lay} from library transistor_charac
+*** Created on Sat Aug 12, 2023 19:47:07
+*** Last revised on Sat Aug 12, 2023 22:20:16
+*** Written on Sat Aug 12, 2023 22:20:21 by Electric VLSI Design System, version 9.07
+*** Layout tech: mocmos, foundry MOSIS
+*** UC SPICE *** , MIN_RESIST 4.0, MIN_CAPAC 0.1FF
+*** WARNING: no power connection for P-transistor wells in cell 'PMOS_IV{lay}'
+
+*** TOP LEVEL CELL: PMOS_IV{lay}
+Mpmos@0 D G S vdd PMOS L=0.6U W=3U AS=7.2P AD=7.2P PS=10.8U PD=10.8U
+
+* Spice Code nodes in cell cell 'PMOS_IV{lay}'
+.include "C:\ELECTRIC VLSI\C50.txt"
+VS S 0 DC 0
+VW W 0 DC 0
+VG G 0 DC 0
+VD D 0 DC 0
+.DC VD 0 -5 -500m VG 0 -5 -500m
+
+.END

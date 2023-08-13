@@ -1,0 +1,99 @@
+# header information:
+Htransistor_charac|9.07
+
+# Views:
+Vlayout|lay
+Vschematic|sch
+
+# Technologies:
+Tmocmos|ScaleFORmocmos()D300.0|mocmosAnalog()BT|mocmosNumberOfMetalLayers()I3
+
+# Cell NMOS_IV;1{lay}
+CNMOS_IV;1{lay}||mocmos|1691849804078|1691858805332||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1691858810292
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NMetal-1-N-Active-Con|contact@0||0|6|5|||
+NMetal-1-N-Active-Con|contact@1||0|-6|5|||
+NMetal-1-Polysilicon-1-Con|contact@2||-13.5|0||||
+NN-Transistor|nmos@0||0|0|7||||SIM_spice_model(D5G1;)SNMOS
+NMetal-1-Pin|pin@1||40|-6||||
+NMetal-1-Pin|pin@2||40|6||||
+NMetal-1-Pin|pin@3||-30|0||||
+NMetal-1-Pin|pin@5||0|-40||||
+Ngeneric:Invisible-Pin|pin@6||-44|-15|||||SIM_spice_card(D5G2;)S[VS S 0 DC 0,VW W 0 DC 0,VG G 0 DC 0,VD D 0 DC 0,.DC VD 0 5 1m VG 0 5 1m,".include \"C:\\ELECTRIC VLSI\\C50.txt\""]
+NMetal-1-P-Well-Con|substr@0||0|-19.5|5|||
+AN-Active|net@0|||S2700|contact@1||0|-6|nmos@0|diff-bottom|0|-3.75
+AN-Active|net@1|||S2700|nmos@0|diff-top|0|3.75|contact@0||0|6
+APolysilicon-1|net@2|||S1800|contact@2||-14|0|nmos@0|poly-left|-7|0
+AMetal-1|net@4||1|S1800|contact@1||0|-6|pin@1||40|-6
+AMetal-1|net@5||1|S1800|contact@0||0|6|pin@2||40|6
+AMetal-1|net@6||1|S0|contact@2||-13.5|0|pin@3||-30|0
+AMetal-1|net@8||6|S900|substr@0||0|-19.5|pin@5||0|-40
+ED||D5G2;|pin@2||U
+EG||D5G2;|pin@3||U
+ES||D5G2;|pin@1||U
+Egnd||D5G2;|pin@5||U
+X
+
+# Cell NMOS_IV;1{sch}
+CNMOS_IV;1{sch}||schematic|1691849782480|1691859597648|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NGround|gnd@0||-14|-2|-2|-3||
+N4-Port-Transistor|nmos-4@0||-20|0|||R||ATTR_length(D5G0.5;X-0.5;Y-1;)S2|ATTR_width(D5G1;X0.5;Y-1;)S2|SIM_spice_model(D5G1;X1;Y-3;)SNMOS
+NWire_Pin|pin@3||-14|-1||||
+NWire_Pin|pin@6||-23.5|0||||
+NWire_Pin|pin@7||-18|3.5||||
+NWire_Pin|pin@8||-18|-4||||
+Ngeneric:Invisible-Pin|pin@9||-27|3|||||SIM_spice_card(D5G0.5;)S[VS S 0 DC 0,VW W 0 DC 0,VG G 0 DC 0,VD D 0 DC 0,.DC VD 0 5 1m VG 0 5 1m,".include \"C:\\ELECTRIC VLSI\\C50.txt\""]
+Awire|net@0|||2700|nmos-4@0|d|-18|2|pin@7||-18|3.5
+Awire|net@1|||0|nmos-4@0|g|-21|0|pin@6||-23.5|0
+Awire|net@2|||900|nmos-4@0|s|-18|-2|pin@8||-18|-4
+Awire|net@3|||1800|nmos-4@0|b|-18|-1|pin@3||-14|-1
+Awire|net@4|||2700|gnd@0||-14|-1.5|pin@3||-14|-1
+ED||D5G2;|pin@7||U
+EG||D5G2;|pin@6||U
+ES||D5G2;|pin@8||U
+X
+
+# Cell PMOS_IV;1{lay}
+CPMOS_IV;1{lay}||mocmos|1691849827456|1691859016984||DRC_last_good_drc_bit()I18|DRC_last_good_drc_date()G1691857458117
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NMetal-1-P-Active-Con|contact@0||0|6.5|5|||
+NMetal-1-P-Active-Con|contact@1||0|-6.5|5|||
+NMetal-1-Polysilicon-1-Con|contact@2||-13.5|0||||
+NMetal-1-Pin|pin@0||0|38||||
+NMetal-1-Pin|pin@1||-31.5|0||||
+NMetal-1-Pin|pin@2||23.5|6.5||||
+NMetal-1-Pin|pin@3||23.5|-6.5||||
+Ngeneric:Invisible-Pin|pin@4||-49|29|||||SIM_spice_card(D5G2;)S[VS S 0 DC 0,VW W 0 DC 0,VG G 0 DC 0,VD D 0 DC 0,.DC VD 0 -5 -1m VG 0 -5 -1m,".include \"C:\\ELECTRIC VLSI\\C50.txt\""]
+NP-Transistor|pmos@0||0|0|7||||SIM_spice_model(D5G1;)SPMOS
+NMetal-1-N-Well-Con|well@0||0|20|5|1||
+AP-Active|net@0|||S2700|pmos@0|diff-top|0|3.75|contact@0||0|7
+AP-Active|net@1|||S900|pmos@0|diff-bottom|0|-3.75|contact@1||0|-7
+APolysilicon-1|net@2|||S1800|contact@2||-14|0|pmos@0|poly-left|-7|0
+AMetal-1|net@3||6|S2700|well@0||0|21|pin@0||0|38
+AMetal-1|net@4||1|S0|contact@2||-13.5|0|pin@1||-31.5|0
+AMetal-1|net@5||1|S1800|contact@0||0|6.5|pin@2||23.5|6.5
+AMetal-1|net@6||1|S1800|contact@1||0|-6.5|pin@3||23.5|-6.5
+ED||D5G2;|pin@3||U
+EG||D5G2;|pin@1||U
+ES||D5G2;|pin@2||U
+EW||D5G2;|pin@0||U
+X
+
+# Cell PMOS_IV;1{sch}
+CPMOS_IV;1{sch}||schematic|1691849820607|1691857935551|
+Ngeneric:Facet-Center|art@0||0|0||||AV
+NWire_Pin|pin@0||-3|0||||
+NWire_Pin|pin@1||2|3||||
+NWire_Pin|pin@2||2|-3||||
+NWire_Pin|pin@3||5|1||||
+N4-Port-Transistor|pmos-4@0||0|0|||YR|2|ATTR_length(D5G0.5;X-0.5;Y-1;)D2.0|ATTR_width(D5G1;X0.5;Y-1;)D10.0|SIM_spice_model(D5G1;Y-4;)SPMOS
+Awire|net@0|||0|pmos-4@0|g|-1|0|pin@0||-3|0
+Awire|net@1|||2700|pmos-4@0|s|2|2|pin@1||2|3
+Awire|net@2|||900|pmos-4@0|d|2|-2|pin@2||2|-3
+Awire|net@3|||1800|pmos-4@0|b|2|1|pin@3||5|1
+ED||D5G2;|pin@2||U
+EG||D5G2;|pin@0||U
+ES||D5G2;|pin@1||U
+EW||D5G2;|pin@3||U
+X
