@@ -68,18 +68,18 @@ then we write the spice code .
 5. Observe and analyze the simulated VTC for CMOS Inverter setups.
 
 ## Screenshots
-NMOS SCHEMATIC SETUP 
-![NMOS SCHEMATIC SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_SchematicSetup.png) 
-NMOS LAYOUT SETUP
-![NMOS LAYOUT SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_LayoutSetup.png) 
-PMOS SCHEMATIC SETUP
-![PMOS SCHEMATIC SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_SchematicSetup.png) 
-PMOS LAYOUT SETUP
-![PMOS LAYOUT SETUP ](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_LayoutSetup.png) 
-NMOS IV CHARACTERSTICS
-![NMOS IV CHARACTERSTICS](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/NMOS_iD.jpg) 
-PMOS IV CHARACTERSTICS
-![PMOS IV CHARACTERSTICS](https://github.com/afzalamu/eletric-vlsi/blob/main/IV_CHARACTERSTICS_NMOS%26PMOS/images/PMOS_IS.jpg)
+CMOS INVERTER SCHEMATIC
+![CMOS INVERTER SCHEMATIC ](https://github.com/afzalamu/eletric-vlsi/blob/main/cmos-invereter/images/schematic.png) 
+CMOS INVERTER ICON
+![CMOS INVERTER ICON](https://github.com/afzalamu/eletric-vlsi/blob/main/cmos-invereter/images/icon.png) 
+CMOS INVERTER LAYOUT
+![CMOS INVERTER LAYOUT ](https://github.com/afzalamu/eletric-vlsi/blob/main/cmos-invereter/images/layout.png) 
+SCHEMATIC SETUP FOR SIMULATION
+![SCHEMATIC SETUP FOR SIMULATION ](https://github.com/afzalamu/eletric-vlsi/blob/main/cmos-invereter/images/schematic%20simulation.png) 
+LAYOUT SETUP FOR SIMULATION
+![LAYOUT SETUP FOR SIMULATION ](https://github.com/afzalamu/eletric-vlsi/blob/main/cmos-invereter/images/layout%20simulation.png) 
+VOLTAGE TRANSFER CHARACTERSTICS
+![VOLTAGE TRANSFER CHARACTERSTICS](https://github.com/afzalamu/eletric-vlsi/blob/main/cmos-invereter/images/vtc.png)
 
 ## Conclusion
 By following this process, you successfully designed CMOS Inverter using Electric Binary Software, generated their layouts, wrote SPICE code, and simulated  its Voltage Transfer characteristics using LTspice. This project demonstrates the integration between schematic design, layout generation, SPICE modeling, and DC analysis.
