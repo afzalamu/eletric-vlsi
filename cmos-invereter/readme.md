@@ -1,6 +1,7 @@
 
 
 # CMOS INVERETR SCHEMATIC, LAYOUT AND  ANALYSIS : Electric Binary Software and LTspice Simulation
+![intro image ](https://github.com/afzalamu/eletric-vlsi/blob/main/cmos-invereter/images/INTRO.jpg) 
 
 This README.md file documents the process of creating schematic setups for CMOS INVERETR, along with Tthe layout, using Electric Binary Software. It also covers writing SPICE code for the schematic and layout, followed by simulating Voltage Transfer Characteristics using LTspice.
 
